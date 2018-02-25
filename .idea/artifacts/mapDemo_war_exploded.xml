@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mapDemo:war exploded">
+    <output-path>$PROJECT_DIR$/out//mapAppDemo</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mapDemo" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="mapDemo/web/Web" />
+    </root>
+  </artifact>
+</component>

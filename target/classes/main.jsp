@@ -12,11 +12,11 @@
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
     <style type="text/css">
         body,html,#container{
-            height: 100%;
+            height: 80%;
             margin: 0px;
         }
     </style>
-    <title>快速入门</title>
+    <title>mapApp</title>
 </head>
 <body>
 <div id="container" tabindex="0"></div>
@@ -27,6 +27,13 @@
         zoom: 10,
         center: [116.480983, 40.0958]
     });
+    var marker = new AMap.Marker({
+        position: [116.480983, 39.989628,119.480983,39.989628],//marker所在的位置
+        map:map//创建时直接赋予map属性
+    });
+
+    //也可以在创建完成后通过setMap方法执行地图对象
+    marker.setMap(map);
 </script>
 </body>
 </html>

@@ -1,6 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="mapApp">
-    <output-path>$PROJECT_DIR$/out/artifacts/mapApp</output-path>
-    <root id="archive" name="mapApp.war" />
-  </artifact>
-</component>

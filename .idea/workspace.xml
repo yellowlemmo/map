@@ -7,17 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="babe8cc3-9890-45c3-b8e1-978b9ed792db" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/first.jsp" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/mapApp.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/mapDemo_war_exploded.xml" afterPath="" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_45.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cui/db/localtionDB.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cui/po/marker.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/cui/servlet/selectServlet.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/mapAppDemo/.idea/artifacts/mapApp.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/mapAppDemo/.idea/artifacts/mapDemo_war_exploded.xml" afterPath="$PROJECT_DIR$/out/mapAppDemo/.idea/artifacts/mapDemo_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/mapDemo.iml" afterPath="$PROJECT_DIR$/mapDemo.iml" />
       <change beforePath="$PROJECT_DIR$/out/mapAppDemo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/mapAppDemo/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/mapAppDemo/WEB-INF/classes/a.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/mapAppDemo/web/a.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/a.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/web/a.jsp" afterPath="$PROJECT_DIR$/web/main.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/mapAppDemo/WEB-INF/classes/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/mapAppDemo/WEB-INF/classes/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/out/mapAppDemo/WEB-INF/classes/first.jsp" afterPath="$PROJECT_DIR$/out/mapAppDemo/WEB-INF/classes/first.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/mapAppDemo/WEB-INF/classes/main.jsp" afterPath="$PROJECT_DIR$/out/mapAppDemo/WEB-INF/classes/main.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/mapAppDemo/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/mapAppDemo/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/out/mapAppDemo/mapDemo.iml" afterPath="$PROJECT_DIR$/out/mapAppDemo/mapDemo.iml" />
+      <change beforePath="$PROJECT_DIR$/out/mapAppDemo/pom.xml" afterPath="$PROJECT_DIR$/out/mapAppDemo/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/out/mapAppDemo/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/mapAppDemo/web/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/out/mapAppDemo/web/first.jsp" afterPath="$PROJECT_DIR$/out/mapAppDemo/web/first.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/mapAppDemo/web/main.jsp" afterPath="$PROJECT_DIR$/out/mapAppDemo/web/main.jsp" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/first.jsp" afterPath="$PROJECT_DIR$/target/classes/first.jsp" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main.jsp" afterPath="$PROJECT_DIR$/target/classes/main.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change beforePath="$PROJECT_DIR$/web/first.jsp" afterPath="$PROJECT_DIR$/web/first.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/main.jsp" afterPath="$PROJECT_DIR$/web/main.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,8 +43,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sendAndRecive.json" pinned="false" current-in-tab="true">
+        <entry file="jar://$USER_HOME$/Downloads/GUITestReport.jar!/sendAndRecive.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuiTestCaseDataModel.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Downloads/GUITestReport.jar!/com/itestin/guitest/report/GuiTestCaseDataModel.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <marker date="1519869572854" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1519869572854" expanded="true" signature="381:388" ph="{}" />
+                <marker date="1519869572854" expanded="false" signature="422:433" ph=" { " />
+                <marker date="1519869572854" expanded="false" signature="455:461" ph=" }" />
+                <marker date="1519869572854" expanded="false" signature="509:520" ph=" { " />
+                <marker date="1519869572854" expanded="false" signature="547:553" ph=" }" />
+                <marker date="1519869572854" expanded="false" signature="586:597" ph=" { " />
+                <marker date="1519869572854" expanded="false" signature="618:624" ph=" }" />
+                <marker date="1519869572854" expanded="false" signature="670:681" ph=" { " />
+                <marker date="1519869572854" expanded="false" signature="706:712" ph=" }" />
+                <marker date="1519869572854" expanded="false" signature="741:752" ph=" { " />
+                <marker date="1519869572854" expanded="false" signature="769:775" ph=" }" />
+                <marker date="1519869572854" expanded="false" signature="813:824" ph=" { " />
+                <marker date="1519869572854" expanded="false" signature="841:847" ph=" }" />
+                <marker date="1519869572854" expanded="false" signature="876:887" ph=" { " />
+                <marker date="1519869572854" expanded="false" signature="904:910" ph=" }" />
+                <marker date="1519869572854" expanded="false" signature="948:959" ph=" { " />
+                <marker date="1519869572854" expanded="false" signature="976:982" ph=" }" />
+                <marker date="1519869572854" expanded="false" signature="1019:1030" ph=" { " />
+                <marker date="1519869572854" expanded="false" signature="1055:1061" ph=" }" />
+                <marker date="1519869572854" expanded="false" signature="1115:1126" ph=" { " />
+                <marker date="1519869572854" expanded="false" signature="1159:1165" ph=" }" />
+                <marker date="1519869572854" expanded="false" signature="1199:1210" ph=" { " />
+                <marker date="1519869572854" expanded="false" signature="1232:1238" ph=" }" />
+                <marker date="1519869572854" expanded="false" signature="1286:1297" ph=" { " />
+                <marker date="1519869572854" expanded="false" signature="1324:1330" ph=" }" />
+                <marker date="1519869572854" expanded="false" signature="1361:1372" ph=" { " />
+                <marker date="1519869572854" expanded="false" signature="1391:1397" ph=" }" />
+                <marker date="1519869572854" expanded="false" signature="1439:1450" ph=" { " />
+                <marker date="1519869572854" expanded="false" signature="1471:1477" ph=" }" />
+                <marker date="1519869572854" expanded="false" signature="1513:1524" ph=" { " />
+                <marker date="1519869572854" expanded="false" signature="1548:1554" ph=" }" />
+                <marker date="1519869572854" expanded="false" signature="1606:1617" ph=" { " />
+                <marker date="1519869572854" expanded="false" signature="1648:1654" ph=" }" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Downloads/GUITestReport.jar!/com/itestin/guitest/report/Main.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <marker date="1519869572854" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1519869572854" expanded="false" signature="150:467" ph="..." />
+                <marker date="1519869572854" expanded="true" signature="507:514" ph="{}" />
+                <marker date="1519869572854" expanded="true" signature="585:1074" ph="{...}" />
+                <marker date="1519869572854" expanded="true" signature="1141:1497" ph="{...}" />
+                <marker date="1519869572854" expanded="true" signature="1552:2071" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Downloads/GUITestReport.jar!/about.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -40,12 +135,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/main.jsp">
+      <file leaf-file-name="localtionDB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/db/localtionDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1519827712310" expanded="true" signature="719:739" ph="select * fro... marker" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="marker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/po/marker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#190#191#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#309#310#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#535#536#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,9 +171,31 @@
       <file leaf-file-name="first.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/first.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+            <state relative-caret-position="60">
+              <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="selectServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/servlet/selectServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="17" column="73" lean-forward="false" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,6 +206,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -81,7 +222,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/web/a.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/localtionDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/db/localtionDB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/po/marker.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/first.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cui/servlet/selectServlet.java" />
         <option value="$PROJECT_DIR$/web/main.jsp" />
       </list>
     </option>
@@ -113,8 +260,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
-    <option name="y" value="25" />
+    <option name="x" value="60" />
+    <option name="y" value="28" />
     <option name="width" value="1400" />
     <option name="height" value="757" />
   </component>
@@ -133,8 +280,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,6 +305,30 @@
             <path>
               <item name="mapDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="mapDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mapDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mapDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cui" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mapDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mapDemo" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -164,23 +337,30 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mapDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="copyright.profiles" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cui.db" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -194,7 +374,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.main.jsp">
+  <component name="RunManager" selected="Tomcat Server.first.jsp (3)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -236,7 +416,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="main.jsp" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/web/main.jsp" />
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -272,9 +451,10 @@
       <listeners />
     </configuration>
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.5" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="mapApp">
+        <artifact name="mapDemo:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -338,12 +518,13 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method>
-        <option name="BuildArtifacts" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mapDemo:war exploded" />
+        </option>
       </method>
     </configuration>
-    <configuration name="a.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.5" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/web/a.jsp" />
-      <option name="UPDATING_POLICY" value="restart-server" />
+    <configuration name="first.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.5" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/web/first.jsp" />
       <deployment>
         <artifact name="mapDemo:war exploded">
           <settings>
@@ -352,7 +533,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="a_jsp_mapDemo" />
+        <option name="BASE_DIRECTORY_NAME" value="first_jsp_(1)_mapDemo" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -361,7 +542,7 @@
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="49867" />
+        <option name="DEBUG_PORT" value="61489" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -414,6 +595,84 @@
         </option>
       </method>
     </configuration>
+    <configuration name="first.jsp (2)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.5" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/web/first.jsp" />
+      <deployment>
+        <artifact name="mapDemo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="first_jsp_(2)_mapDemo" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mapDemo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="first.jsp (3)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.5" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/web/first.jsp" />
+      <deployment>
+        <artifact name="mapDemo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="first_jsp_(3)_mapDemo" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="mapDemo:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <configuration name="first.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.5" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/web/first.jsp" />
       <deployment>
@@ -424,7 +683,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="first_jsp_mapDemo" />
+        <option name="BASE_DIRECTORY_NAME" value="first_jsp_mapDemo_2" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -455,6 +714,7 @@
     </configuration>
     <configuration name="main.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.5" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/web/main.jsp" />
+      <option name="BROWSER_ID" value="e5120d43-2c3f-47ef-9f26-65e539e05186" />
       <deployment>
         <artifact name="mapDemo:war exploded">
           <settings>
@@ -463,7 +723,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="main_jsp_mapDemo" />
+        <option name="BASE_DIRECTORY_NAME" value="main_jsp_mapDemo_2" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -471,6 +731,39 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50808" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -498,19 +791,21 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.a.jsp" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.main.jsp" />
       <item index="2" class="java.lang.String" itemvalue="Tomcat Server.first.jsp" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.main.jsp" />
-      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.main.jsp" />
+      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.first.jsp (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.first.jsp (2)" />
+      <item index="5" class="java.lang.String" itemvalue="Tomcat Server.first.jsp (3)" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.main.jsp" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.main.jsp" />
-        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.a.jsp" />
-        <item index="3" class="java.lang.String" itemvalue="Tomcat Server.first.jsp" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.first.jsp (3)" />
+        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.first.jsp (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.first.jsp" />
+        <item index="3" class="java.lang.String" itemvalue="Tomcat Server.main.jsp" />
+        <item index="4" class="java.lang.String" itemvalue="Tomcat Server.first.jsp (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -528,47 +823,52 @@
       <option name="presentableId" value="Default" />
       <updated>1519530441945</updated>
       <workItem from="1519530443378" duration="3796000" />
-      <workItem from="1519567233649" duration="1566000" />
+      <workItem from="1519567233649" duration="2167000" />
+      <workItem from="1519742828375" duration="2527000" />
+      <workItem from="1519817436510" duration="493000" />
+      <workItem from="1519822522888" duration="7633000" />
+      <workItem from="1519878582860" duration="968000" />
+      <workItem from="1519881608713" duration="38000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5362000" />
+    <option name="totallyTimeSpent" value="17622000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="25" width="1400" height="757" extended-state="0" />
+    <frame x="60" y="28" width="1400" height="757" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.48029196" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.51970804" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,6 +882,239 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/GUITestReport.jar!/sendAndRecive.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/GUITestReport.jar!/com/itestin/guitest/report/GuiTestCaseDataModel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <marker date="1519869572854" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1519869572854" expanded="true" signature="381:388" ph="{}" />
+            <marker date="1519869572854" expanded="false" signature="422:433" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="455:461" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="509:520" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="547:553" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="586:597" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="618:624" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="670:681" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="706:712" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="741:752" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="769:775" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="813:824" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="841:847" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="876:887" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="904:910" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="948:959" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="976:982" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="1019:1030" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="1055:1061" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="1115:1126" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="1159:1165" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="1199:1210" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="1232:1238" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="1286:1297" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="1324:1330" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="1361:1372" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="1391:1397" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="1439:1450" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="1471:1477" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="1513:1524" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="1548:1554" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="1606:1617" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="1648:1654" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/GUITestReport.jar!/com/itestin/guitest/report/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <marker date="1519869572854" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1519869572854" expanded="false" signature="150:467" ph="..." />
+            <marker date="1519869572854" expanded="true" signature="507:514" ph="{}" />
+            <marker date="1519869572854" expanded="true" signature="585:1074" ph="{...}" />
+            <marker date="1519869572854" expanded="true" signature="1141:1497" ph="{...}" />
+            <marker date="1519869572854" expanded="true" signature="1552:2071" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/GUITestReport.jar!/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/db/localtionDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1519827712310" expanded="true" signature="719:739" ph="select * fro... marker" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/po/marker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/first.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/servlet/selectServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="73" lean-forward="false" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/db/localtionDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1519827712310" expanded="true" signature="719:739" ph="select * fro... marker" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/po/marker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/first.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/servlet/selectServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="73" lean-forward="false" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/localtionDB.java" />
+    <entry file="file://$PROJECT_DIR$/web/first.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="58" lean-forward="false" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -592,12 +1125,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        <state relative-caret-position="315">
+          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/first.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/localtionDB.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -616,8 +1158,170 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="30" column="40" lean-forward="false" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        <state relative-caret-position="390">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/localtionDB.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/db/localtionDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1519827712310" expanded="true" signature="719:739" ph="select * fro... marker" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/po/marker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#309#310#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/first.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cui/servlet/selectServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="73" lean-forward="false" selection-start-line="17" selection-start-column="73" selection-end-line="17" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/GUITestReport.jar!/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/GUITestReport.jar!/com/itestin/guitest/report/GuiTestCaseDataModel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <marker date="1519869572854" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1519869572854" expanded="true" signature="381:388" ph="{}" />
+            <marker date="1519869572854" expanded="false" signature="422:433" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="455:461" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="509:520" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="547:553" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="586:597" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="618:624" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="670:681" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="706:712" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="741:752" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="769:775" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="813:824" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="841:847" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="876:887" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="904:910" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="948:959" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="976:982" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="1019:1030" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="1055:1061" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="1115:1126" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="1159:1165" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="1199:1210" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="1232:1238" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="1286:1297" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="1324:1330" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="1361:1372" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="1391:1397" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="1439:1450" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="1471:1477" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="1513:1524" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="1548:1554" ph=" }" />
+            <marker date="1519869572854" expanded="false" signature="1606:1617" ph=" { " />
+            <marker date="1519869572854" expanded="false" signature="1648:1654" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/GUITestReport.jar!/com/itestin/guitest/report/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <marker date="1519869572854" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1519869572854" expanded="false" signature="150:467" ph="..." />
+            <marker date="1519869572854" expanded="true" signature="507:514" ph="{}" />
+            <marker date="1519869572854" expanded="true" signature="585:1074" ph="{...}" />
+            <marker date="1519869572854" expanded="true" signature="1141:1497" ph="{...}" />
+            <marker date="1519869572854" expanded="true" signature="1552:2071" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/GUITestReport.jar!/sendAndRecive.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -634,6 +1338,17 @@
               <list>
                 <option value="0.2" />
                 <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -681,7 +1396,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -701,6 +1415,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: mysql:mysql-connector-java:5.1.45</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

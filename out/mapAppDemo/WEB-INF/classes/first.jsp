@@ -11,8 +11,10 @@
     <title>选择能源类型</title>
 </head>
 <body>
-<input type="submit" value="Oil"/>
-<input type="submit" value="Gas"/>
-<input type="submit" value="Ele"/>
+<form action="selectServlet" method="get">
+    <input type="submit" name="ele" value="Ele"/>
+    <input type="submit" name="oil" value="oil"/>
+    <input type="submit" name="gas" value="gas"/>
+</form>
 </body>
 </html>

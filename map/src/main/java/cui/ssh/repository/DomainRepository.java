@@ -12,11 +12,11 @@ public interface DomainRepository<T,PK extends Serializable>{
 
     T get(PK id);
 
-    List<T> findAll();
+    List<T> findAll(PK id);
 
     void persist(T entity);
 
-    PK save(T entity);
+    Long save(T entity);
 
     void saveOrUpdate(T entity);
 

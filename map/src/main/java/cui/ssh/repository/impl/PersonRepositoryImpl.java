@@ -24,7 +24,7 @@ public class PersonRepositoryImpl {
         return (Person)getCurrentSession().get(Person.class,id);
     }
 
-    public List<Person> findAll() {
+    public List<Person> findAll(Long id) {
         return null;
     }
 

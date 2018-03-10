@@ -13,7 +13,7 @@ public class Person {
 
     @Id
     @GeneratedValue
-    private Long id;
+    private int id;
 
     @Column(name = "created")
     private Long created = System.currentTimeMillis();
@@ -74,12 +74,12 @@ public class Person {
         this.created = created;
     }
 
-    public Long getId() {
+    public int getId() {
 
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 }

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="cui.ssh.entity.Person">
+        <id name="id">
+            <column name="id"></column>
+            <generator class="native"></generator>
+        </id>
+        <property name="address">
+            <column name="address"></column>
+        </property>
+        <property name="created">
+            <column name="created"></column>
+        </property>
+        <property name="phone">
+            <column name="phone"></column>
+        </property>
+    </class>
+</hibernate-mapping>

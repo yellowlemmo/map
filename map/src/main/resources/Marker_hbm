@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="cui.ssh.entity.Marker" table="marker">
+        <id name="id">
+            <column name="id"></column>
+            <generator class="native"></generator>
+        </id>
+        <property name="type">
+            <column name="type"></column>
+        </property>
+        <property name="des">
+            <column name="des"></column>
+        </property>
+        <property name="position">
+            <column name="position"></column>
+        </property>
+    </class>
+</hibernate-mapping>

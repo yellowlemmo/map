@@ -16,21 +16,18 @@ public class AdminLoginController {
     @Autowired
     private AdminService adminService;
 
-    @RequestMapping(value = "/login",method = RequestMethod.POST)
+    @RequestMapping(value = "/login",method = RequestMethod.GET)
     public ModelAndView adminLogin(HttpServletRequest request, HttpServletResponse response){
+        ModelAndView modelAndView = new ModelAndView();
         String username = request.getParameter("username");
         String password = request.getParameter("password");
         Admin admin = adminService.login(username,password);
         System.out.println(admin.getPassword());
         System.out.println(password);
-        ModelAndView modelAndView =  new ModelAndView();
-        if(password.equals(admin.getPassword())){
-        modelAndView.setViewName("index");
+        if(admin!=null) {
+            modelAndView.setViewName("index");
+        }
         return modelAndView;
-        }
-        else {
-            modelAndView.setViewName("admin");
-            return modelAndView;
-        }
+
     }
 }

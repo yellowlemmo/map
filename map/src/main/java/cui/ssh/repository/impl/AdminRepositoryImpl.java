@@ -15,7 +15,11 @@ public class AdminRepositoryImpl extends Utils implements AdminRepository{
         Query query = this.getCurrentSession().createQuery(hql);
         query.setString(0,username);
         List<Admin> admin = query.list();
-        return admin.get(0);
+        if(admin.size()>0) {
+            return admin.get(0);
+        }else {
+            return null;
+        }
     }
 
     @Override

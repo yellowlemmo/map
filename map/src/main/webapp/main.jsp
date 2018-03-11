@@ -12,7 +12,7 @@
 </head>
 <body>
 <form action="main" method="post">
-    <input type="submit" name="main"/>
+    <input type="submit" name="main" value="开始行程"/>
 </form>
 </body>
 </html>

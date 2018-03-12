@@ -30,22 +30,66 @@
     </style>
 </head>
 <body>
+<div id="add">
+    <form action="add" id="form_msg" method="post">
+        <input id="type" type="text" name="type" value=""/><br>
+        <input id="position" type="text" name="position" value=""/><br>
+        <input type="text" name=""des/><br>
+        <input type="submit" value="sure"/>
+    </form>
+</div>
 <div id="container"></div>
+
 <div id="panel"></div>
 <script type="text/javascript">
     //后台返回的marker信息
     var message = ${jsonData}
-    var p;
-    var map = new AMap.Map('container', {
-        resizeEnable: true,
-        center:[117.000923,36.675807],
-        zoom:11
-    });
+    var map,geolocation;
+    // var map = new AMap.Map('container', {
+    //     resizeEnable: true,
+    //     center:[117.000923,36.675807],
+    //     zoom:11
+    // });
 
-    AMap.plugin('AMap.ToolBar',function(){
-        var toolbar = new AMap.ToolBar();
-        map.addControl(toolbar)
-    });
+//******************
+        //加载地图，调用浏览器定位服务
+        map = new AMap.Map('container', {
+            resizeEnable: true
+        });
+        map.plugin('AMap.Geolocation', function() {
+            geolocation = new AMap.Geolocation({
+                enableHighAccuracy: true,//是否使用高精度定位，默认:true
+                timeout: 10000,          //超过10秒后停止定位，默认：无穷大
+                buttonOffset: new AMap.Pixel(10, 20),//定位按钮与设置的停靠位置的偏移量，默认：Pixel(10, 20)
+                zoomToAccuracy: true,      //定位成功后调整地图视野范围使定位位置及精度范围视野内可见，默认：false
+                buttonPosition:'RB'
+            });
+            map.addControl(geolocation);
+            geolocation.getCurrentPosition();
+            AMap.event.addListener(geolocation, 'complete', onComplete);//返回定位信息
+            AMap.event.addListener(geolocation, 'error', onError);      //返回定位出错信息
+        });
+    //解析定位结果
+    function onComplete(data) {
+        var str=['定位成功'];
+        str.push('经度：' + data.position.getLng());
+        str.push('纬度：' + data.position.getLat());
+        if(data.accuracy){
+            str.push('精度：' + data.accuracy + ' 米');
+        }//如为IP精确定位结果则没有精度信息
+        str.push('是否经过偏移：' + (data.isConverted ? '是' : '否'));
+        document.getElementById('tip').innerHTML = str.join('<br>');
+    }
+    //解析定位错误信息
+    function onError(data) {
+        document.getElementById('tip').innerHTML = '定位失败';
+    }
+
+//***********
+//     AMap.plugin('AMap.ToolBar',function(){
+//         var toolbar = new AMap.ToolBar();
+//         map.addControl(toolbar)
+//     });
     //构造路线导航类
     var driving = new AMap.Driving({
         panel: "panel",
@@ -73,6 +117,10 @@
             title: provinces[i].name,
             map: map
         });
+        marker.setAnimation('AMAP_ANIMATION_BOUNCE');
+        marker.on('click',function(e){
+            var endposition = e.lnglat;
+        });
     }
     var contextMenu = new AMap.ContextMenu();  //创建右键菜单
     //右键放大
@@ -88,23 +136,26 @@
         map.setZoomAndCenter(4, [108.946609, 34.262324]);
     }, 2);
     //右键添加Marker标记
-    contextMenu.addItem("添加标记", function(e) {
+    contextMenu.addItem("添加站点", function(e) {
         var marker = new AMap.Marker({
             map: map,
             position: contextMenuPositon //基点位置
         });
-        var Msg = contextMenuPositon;
-        alert(Msg);
+        var positionMsg=contextMenuPositon;
+        var typeMsg=message[0].type;
+        document.getElementById("position").value=positionMsg;
+        document.getElementById("type").value=typeMsg
+        var form = document.getElementById("form_msg");
+        form.submit();
+        alert("success");
     }, 3);
-
 
     //地图绑定鼠标右击事件——弹出右键菜单
     map.on('rightclick', function(e) {
         contextMenu.open(map, e.lnglat);
         contextMenuPositon = e.lnglat;
     });
-    markers.push(marker);
-
 </script>
+
 </body>
 </html>

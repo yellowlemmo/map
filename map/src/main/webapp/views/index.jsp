@@ -1,6 +1,6 @@
 <html>
 <body>
-<h2>Hello World!</h2>
+<h2>选择你机动车的类型</h2>
 <form action="marker" id="marker" method="get">
     <input type="submit" name="type" value="oil"/>
     <input type="submit" name="type" value="gas"/>

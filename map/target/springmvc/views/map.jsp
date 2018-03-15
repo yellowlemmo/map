@@ -18,7 +18,7 @@
     <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
     <script src="https://webapi.amap.com/js/marker.js"></script>
     <style type="text/css">
-        #panel {
+        #panel1 {
             position: fixed;
             background-color: white;
             max-height: 90%;
@@ -37,21 +37,17 @@
         <input type="text" name=""des/><br>
         <input type="submit" value="sure"/>
     </form>
+    <input type="hidden" id="currentLng" value=""/>
+    <input type="hidden" id="currentLat" value=""/>
 </div>
 <div id="container"></div>
 
-<div id="panel"></div>
+<div id="panel1"></div>
 <script type="text/javascript">
     //后台返回的marker信息
     var message = ${jsonData}
     var map,geolocation;
-    // var map = new AMap.Map('container', {
-    //     resizeEnable: true,
-    //     center:[117.000923,36.675807],
-    //     zoom:11
-    // });
 
-//******************
         //加载地图，调用浏览器定位服务
         map = new AMap.Map('container', {
             resizeEnable: true
@@ -65,13 +61,15 @@
                 buttonPosition:'RB'
             });
             map.addControl(geolocation);
-            geolocation.getCurrentPosition();
+            geolocation.getCurrentPosition()
             AMap.event.addListener(geolocation, 'complete', onComplete);//返回定位信息
             AMap.event.addListener(geolocation, 'error', onError);      //返回定位出错信息
         });
     //解析定位结果
     function onComplete(data) {
         var str=['定位成功'];
+        document.getElementById("currentLng").value=data.position.getLng;
+        document.getElementById("currentLat").value=data.position.getLat;
         str.push('经度：' + data.position.getLng());
         str.push('纬度：' + data.position.getLat());
         if(data.accuracy){
@@ -85,22 +83,11 @@
         document.getElementById('tip').innerHTML = '定位失败';
     }
 
-//***********
-//     AMap.plugin('AMap.ToolBar',function(){
-//         var toolbar = new AMap.ToolBar();
-//         map.addControl(toolbar)
-//     });
     //构造路线导航类
     var driving = new AMap.Driving({
-        panel: "panel",
+        panel: "panel1",
         map: map
-
     });
-   // alert("233243");
-    // 根据起终点经纬度规划驾车导航路线
-    driving.search(new AMap.LngLat(111.735409,40.834067), new AMap.LngLat(111.685971,40.846794));
-    //alert("123");
-
     //实例化marker
     var markers = [];
     for(var i=0;i<message.length;i++) {
@@ -120,6 +107,11 @@
         marker.setAnimation('AMAP_ANIMATION_BOUNCE');
         marker.on('click',function(e){
             var endposition = e.lnglat;
+            var current = document.getElementById("currentLng").value+','+document.getElementById("currentLat").value;
+            current.replace(/\"/g,"");
+            driving.search(current,endposition,function (status,result) {
+
+            });
         });
     }
     var contextMenu = new AMap.ContextMenu();  //创建右键菜单

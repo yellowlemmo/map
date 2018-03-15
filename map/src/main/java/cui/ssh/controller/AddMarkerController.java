@@ -16,14 +16,14 @@ public class AddMarkerController {
     private AddMarkerService addMarkerService;
     @RequestMapping(value = "/add",method = RequestMethod.POST)
     public ModelAndView addMarker(String type, String position, HttpServletRequest request){
-        ModelAndView modelAndView = new ModelAndView();
         Marker marker = new Marker();
         marker.setType(type);
         marker.setPosition(position);
         marker.setDes("this is"+type);
         addMarkerService.save(marker);
-        modelAndView.addObject("type",marker.getType());
-        modelAndView.setViewName("index");
+        ModelAndView modelAndView = new ModelAndView("redirect:/marker?type="+marker.getType());
+//        modelAndView.addObject("type",marker.getType());
+//        modelAndView.setViewName("index");
         return modelAndView;
     }
 }

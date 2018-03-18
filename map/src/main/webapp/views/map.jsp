@@ -68,8 +68,7 @@
     //解析定位结果
     function onComplete(data) {
         var str=['定位成功'];
-        document.getElementById("currentLng").value=data.position.getLng;
-        document.getElementById("currentLat").value=data.position.getLat;
+        document.getElementById("currentLng").value=data.position;
         str.push('经度：' + data.position.getLng());
         str.push('纬度：' + data.position.getLat());
         if(data.accuracy){
@@ -88,12 +87,12 @@
         panel: "panel1",
         map: map
     });
-    //实例化marker
+    //实例化markerhttps://vdata.amap.com/icons/b18/1/2.png
     var markers = [];
     for(var i=0;i<message.length;i++) {
         var marker;
         var icon = new AMap.Icon({
-            image: 'https://vdata.amap.com/icons/b18/1/2.png',
+            image: 'http://webapi.amap.com/theme/v1.3/markers/n/mark_r.png',
             size: new AMap.Size(24, 24)
         });
         marker = new AMap.Marker({
@@ -107,9 +106,10 @@
         marker.setAnimation('AMAP_ANIMATION_BOUNCE');
         marker.on('click',function(e){
             var endposition = e.lnglat;
-            var current = document.getElementById("currentLng").value+','+document.getElementById("currentLat").value;
-            current.replace(/\"/g,"");
-            driving.search(current,endposition,function (status,result) {
+            var cu = document.getElementById("currentLng").value;
+            alert(endposition);
+            cu.replace(/\"/g,"");
+            driving.search(cu,endposition,function (status,result) {
 
             });
         });
@@ -140,13 +140,17 @@
         var form = document.getElementById("form_msg");
         form.submit();
     }, 3);
+    //右键删除Marker标记
+    contextMenu.deleteItem("删除站点",function(e){
 
-    //地图绑定鼠标右击事件——弹出右键菜单
-    map.on('rightclick', function(e) {
-        contextMenu.open(map, e.lnglat);
-        contextMenuPositon = e.lnglat;
-    });
+    },4)
+    if('${who}'!="") {
+        //地图绑定鼠标右击事件——弹出右键菜单
+        map.on('rightclick', function (e) {
+            contextMenu.open(map, e.lnglat);
+            contextMenuPositon = e.lnglat;
+        });
+    }
 </script>
-
 </body>
 </html>

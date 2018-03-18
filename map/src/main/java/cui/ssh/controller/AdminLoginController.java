@@ -22,10 +22,15 @@ public class AdminLoginController {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
         Admin admin = adminService.login(username,password);
-        System.out.println(admin.getPassword());
-        System.out.println(password);
         if(admin!=null) {
-            modelAndView.setViewName("index");
+            if(admin.getUsername().equals("admin")&admin.getPassword().equals(password)) {
+                modelAndView.addObject("admin",admin.getUsername());
+                modelAndView.setViewName("index");
+            }else {
+               modelAndView.setViewName("test");
+            }
+        }else {
+            modelAndView.setViewName("test");
         }
         return modelAndView;
 

@@ -22,6 +22,8 @@ public class MarkerViewController {
     @RequestMapping(value = "/marker",method = RequestMethod.GET)
     public ModelAndView findAll( HttpServletRequest request){
         String id = request.getParameter("type");
+        String who = request.getParameter("who");
+        System.out.println(who);
         ModelAndView modelAndView = new ModelAndView();
         List<Marker> markerList = markerService.findAll(id);
         //list转为json
@@ -36,6 +38,7 @@ public class MarkerViewController {
         System.out.println(jsonArray.toString());
         modelAndView.setViewName("map");
         modelAndView.addObject("jsonData",jsonArray);
+        modelAndView.addObject("who",who);
         return modelAndView;
     }
 }

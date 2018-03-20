@@ -21,9 +21,7 @@ public class AddMarkerController {
         marker.setPosition(position);
         marker.setDes("this is"+type);
         addMarkerService.save(marker);
-        ModelAndView modelAndView = new ModelAndView("redirect:/marker?type="+marker.getType());
-//        modelAndView.addObject("type",marker.getType());
-//        modelAndView.setViewName("index");
+        ModelAndView modelAndView = new ModelAndView("redirect:/marker?type="+marker.getType()+"&who="+marker.getDes());
         return modelAndView;
     }
 }

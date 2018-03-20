@@ -28,6 +28,6 @@ public class MarkerServiceImpl implements MarkerService{
     }
     @Override
     public void delete(String position) {
-
+      markerRepository.delete(position);
     }
 }

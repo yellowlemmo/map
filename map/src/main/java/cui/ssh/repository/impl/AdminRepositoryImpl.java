@@ -54,7 +54,7 @@ public class AdminRepositoryImpl extends Utils implements AdminRepository{
 
     @Override
     public void delete(String id) {
-
+        getCurrentSession().delete(id);
     }
 
     @Override

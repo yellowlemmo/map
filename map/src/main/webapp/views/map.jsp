@@ -32,13 +32,18 @@
 <body>
 <div id="add">
     <form action="add" id="form_msg" method="post">
-        <input id="type" type="text" name="type" value=""/><br>
-        <input id="position" type="text" name="position" value=""/><br>
+        <input id="type" type="hidden" name="type" value=""/><br>
+        <input id="position" type="hidden" name="position" value=""/><br>
         <input type="text" name=""des/><br>
-        <input type="submit" value="sure"/>
     </form>
     <input type="hidden" id="currentLng" value=""/>
     <input type="hidden" id="currentLat" value=""/>
+</div>
+<div id="delete">
+    <form action="delete" id="del_msg" method="post">
+        <input id="delMarkertype" name="deltype" type="hidden"/>
+        <input id="delmarker" name="delposition" type="hidden"/>
+    </form>
 </div>
 <div id="container"></div>
 
@@ -104,12 +109,20 @@
             map: map
         });
         marker.setAnimation('AMAP_ANIMATION_BOUNCE');
+        if('${who}'!="") {
+            marker.on('rightclick', function (e) {
+                var current = e.lnglat;
+                document.getElementById("delmarker").value = current;
+                alert(document.getElementById("delmarker").value);
+                document.getElementById("delMarkertype").value = message[0].type;
+                var form = document.getElementById("del_msg");
+                form.submit();
+            });
+        }
         marker.on('click',function(e){
             var endposition = e.lnglat;
             var cu = document.getElementById("currentLng").value;
-            alert(endposition);
-            cu.replace(/\"/g,"");
-            driving.search(cu,endposition,function (status,result) {
+            driving.search([116.49666,39.96095],endposition,function (status,result) {
 
             });
         });
@@ -140,10 +153,6 @@
         var form = document.getElementById("form_msg");
         form.submit();
     }, 3);
-    //右键删除Marker标记
-    contextMenu.deleteItem("删除站点",function(e){
-
-    },4)
     if('${who}'!="") {
         //地图绑定鼠标右击事件——弹出右键菜单
         map.on('rightclick', function (e) {

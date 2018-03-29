@@ -4,7 +4,6 @@ public class Admin {
     private int id;
     private String username;
     private String password;
-    private String state;
 
     public String getUsername() {
         return username;
@@ -20,14 +19,6 @@ public class Admin {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public String isState() {
-        return state;
-    }
-
-    public void setState(String state) {
-        this.state = state;
     }
 
     public int getId() {

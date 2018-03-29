@@ -1,13 +1,12 @@
 package cui.ssh.repository.impl;
 
 import cui.ssh.Utils;
-import cui.ssh.entity.House;
-import cui.ssh.repository.HouseRepository;
+import cui.ssh.repository.DomainRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 @Repository
-public class HouseRepositoryImpl extends Utils implements HouseRepository{
+public class HouseRepositoryImpl extends Utils implements DomainRepository<House, String> {
     @Override
     public House load(String id) {
         return null;

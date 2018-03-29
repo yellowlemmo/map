@@ -1,14 +1,13 @@
 package cui.ssh.repository.impl;
 
 import cui.ssh.Utils;
-import cui.ssh.entity.Host;
-import cui.ssh.repository.HostRepository;
+import cui.ssh.repository.DomainRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 @Repository
-public class HostRepositoryImpl extends Utils implements HostRepository{
+public class HostRepositoryImpl extends Utils implements DomainRepository<Host, String> {
     @Override
     public Host load(String id) {
         return null;

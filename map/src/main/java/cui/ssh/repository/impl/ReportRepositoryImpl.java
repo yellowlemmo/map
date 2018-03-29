@@ -1,13 +1,12 @@
 package cui.ssh.repository.impl;
 
 import cui.ssh.Utils;
-import cui.ssh.entity.Record;
-import cui.ssh.repository.RecordRepository;
+import cui.ssh.repository.DomainRepository;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 @Repository
-public class ReportRepositoryImpl extends Utils implements RecordRepository {
+public class ReportRepositoryImpl extends Utils implements DomainRepository<Record, String> {
     @Override
     public Record load(String id) {
         return null;

@@ -41,9 +41,6 @@
                 <value>Marker_hbm</value>
                 <value>Person_hbm</value>
                 <value>Admin_hbm</value>
-                <value>Host_hbm</value>
-                <value>House_hbm</value>
-                <value>Report_hbm</value>
             </list>
         </property>
     </bean>
